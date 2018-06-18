@@ -17,9 +17,8 @@
   2. Download or Clone this repository in the /vagrant directory **You must finish step 1 first**.
 
 #### Prepare the Software and Data
- 1. The virtual machine from step 1
-
-       If you need to bring the virtual machine back online with `$ vagrant up`. Then log into it with `$ vagrant ssh`
+ 1. Folow the intructions in the Setup Project section to instal the virtual machine. Once install cd into the /vagrant directory and use the command `$ sudo vagrant up`. Once the install is finished you can connect to the virtual machine with `$ sudo vagrant ssh`
+    If you need to bring the virtual machine back online you can do so with `$ sudo vagrant up`. Then log into it with `$ sudo vagrant ssh`
  2. Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
     1. Unzip this file after downloading it. The file inside is called newsdata.sql.
     2. To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command
